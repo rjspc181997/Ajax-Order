@@ -1,0 +1,43 @@
+<!-- With Ajax -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order</title>
+  <link rel="stylesheet" href="<?=base_url('assets/stylesheets/style.css')?>">
+</head>
+<body>
+  <div class="container">
+    <header>
+        <h1>Order Queue: </h1>
+    </header>
+    <main>
+
+      <div id="foods">
+      </div>
+      
+      <div class="notes">
+        <h1>1</h1>
+        <p>1 tea, 1 beef stew, 2 extra rice, 1 soup</p>
+      </div>
+      <div class="notes">
+        
+      </div>
+      <div class="notes">
+        
+      </div>
+      <div class="notes">
+        
+      </div>
+    </main>
+    <footer>
+      <form action="/foods/create" method="POST">
+        <input type="search" name="search">
+        <input type="submit" value="Button">
+      </form>
+    </footer>
+  </div>
+</body>
+</html>
